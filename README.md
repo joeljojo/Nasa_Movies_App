@@ -1,11 +1,12 @@
-# Getting Started with Create React App
+# Starting up this react app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application was created using the using react CLI (npx create-react-app) command
 
 ## Available Scripts
 
 In the project directory, you can run:
 
+The command `npm start starts the application as explained below`
 ### `npm start`
 
 Runs the app in the development mode.\
