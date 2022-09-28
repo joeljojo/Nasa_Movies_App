@@ -64,3 +64,78 @@
     background-position: center center;
     
 }
+
+
+/*@mediaQueries */
+@media screen and (max-width: 767px){
+.movies{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  margin: 0 20px !important;
+} 
+.movie-card{
+    background-color: #ffffff;
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    -ms-border-radius:4px;
+    -o-border-radius:4px;
+    border: 1px solid #ffffff;
+    padding: 20px;
+    width: 90%;
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+}
+
+@media screen and (min-width: 768px){
+.movies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  margin: 0 20px !important;
+} 
+.movie-card{
+    background-color: #ffffff;
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    -ms-border-radius:4px;
+    -o-border-radius:4px;
+    border: 1px solid #ffffff;
+    padding: 20px;
+    width: 40%;
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+}
+@media screen and (min-width: 1024px){
+    .movies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  margin: 0 20px !important;
+} 
+.movie-card{
+    background-color: #ffffff;
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    -ms-border-radius:4px;
+    -o-border-radius:4px;
+    border: 1px solid #ffffff;
+    padding: 20px;
+    width: 20%;
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+}
