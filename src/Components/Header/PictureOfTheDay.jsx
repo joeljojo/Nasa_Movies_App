@@ -34,6 +34,7 @@ useEffect(() => {
                 <div className="pic"><img src={picture.hdurl} alt="NASA Picture of the Day" layout='responsive'/></div>
             
             </div>
+            <Movies/>
         </div>)
         
 }
