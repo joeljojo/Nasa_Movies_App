@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import Axios from 'axios';
 import { NASA_PIC_OF_THE_DAY_URL, NASA_API_KEY } from '../../Config/Config.js';
 import '../Header/header.css';
+import Movies from '../Movies/Movies.jsx';
 
 //function to find the day of the week
 function dayOfTheWeek() {
