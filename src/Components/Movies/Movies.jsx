@@ -29,7 +29,7 @@ const Movies = () => {
             
             return(
                 <div className="movie-card">
-                    <a>
+                    <Link to={'/movie/'+ movie.id } state={{id: movie.id}}>
                         <div className="poster" style={{backgroundImage:`url(${URL})`}}>
 
                         </div>
@@ -38,7 +38,7 @@ const Movies = () => {
                         <p>{movie.overview}</p>
                         <p>Popularity: {movie.popularity}</p>
                         <p>Release Date: {movie.release_date}</p>
-                    </a>
+                    </Link>
                     
                 </div>)
             })}
