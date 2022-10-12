@@ -20,7 +20,7 @@ const SingleMovieByID = () => {
         Axios.get(`https://api.themoviedb.org/3/movie/${movieId}?api_key=48b43c71c226d58239efb833d05ab17c`).then((response) =>{
             setMovie(response.data);
         }).catch(error => error);
-    }, [])
+    }, [movieId])
 
     return <div>
         <div className="main">
