@@ -31,7 +31,7 @@ useEffect(() => {
                         <div>{dayOfTheWeek()}</div>
                     </h1>
                 </div>
-                <div className="pic"><img src={picture.hdurl} alt="NASA Picture of the Day" layout='responsive'/></div>
+                <div className="pic"><img src={picture.hdurl} alt=" " layout='responsive'/></div>
             
             </div>
             <Movies/>
